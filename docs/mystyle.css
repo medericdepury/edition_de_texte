@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0 4vw;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titre {
+    color: #6ca0dc;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Bodoni MT", serif;
+}
+
+.titre2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+    font-family: "Bodoni MT", serif;
+}
+
+.texte {
+    text-align: left;
+    font-size: 20px;
+    font-family: "DidotReg-GPSR15", serif;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.pied-de-page {
+    text-align: left;
+    font-size: 20px;
+    font-family: "DidotReg-GPSR15", serif;
+    line-height: 1;
+    margin-bottom: 0;
+    font-family: "DidotItal-GPSR15", serif;
+    margin-top: 50px;
+}
+
+.texte em {
+    font-style: normal;
+    font-family: "DidotItal-GPSR15", serif;
+}
+
+select,
+option {
+    font-family: "DidotItal-GPSR15", serif;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 4vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding: 3vw;
+    }
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6ca0dc;
+
+}
