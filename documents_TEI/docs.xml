@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="documents_TEI/mystyle.css" type="text/css"?>
+<?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Poèmes lyriques</title>
+        <respStmt>
+          <resp>Éditeur,</resp>
+          <name xml:id="MdP">Médéric de Pury</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Not for distribution.</p>
+      </publicationStmt>
+      <sourceDesc>
+       <p>Textes mis en musique tirés de The LiederNet Archive (https://www.lieder.net/).</p>
+      </sourceDesc>
+
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+
+    <front>
+      <div type="contents">
+        <head>Contenu</head>
+        <list>
+          <item>Am Sonntag morgen, zierlich angetan</item>
+        </list>
+      </div>
+    </front>
+
+<body>
+  <div type="poem">
+    <head>Am Sonntag morgen, zierlich angetan</head>
+
+    <lg>
+      <l>Am Sonntag morgen, zierlich angetan,</l>
+      <l>Wohl weiß ich, wo du da bist hingegangen,</l>
+      <l>Und manche Leute waren, die dich sahn,</l>
+      <l>Und kamen dann zu mir, dich zu verklagen.</l>
+      <l>Als sie mir's sagten, hab' ich laut gelacht</l>
+      <l>Und in der Kammer dann geweint zu Nacht.</l>
+      <l>Als sie mir's sagten, fing ich an zu singen,</l>
+      <l>Um einsam dann die Hände wund zu ringen.</l>
+    </lg>
+
+  </div>
+</body>
+
+
+    <back>
+      <div type="colophon">
+        <p>Édition de texte : introduction à l'édition numérique avec TEI</p>
+      </div>
+    </back>
+
+  </text>
+</TEI>
