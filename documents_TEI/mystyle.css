@@ -1,76 +1,187 @@
-TEI, text, body {
-    display: block;
-    margin: 0;
-    padding: 0 4vw;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+TEI {
+    background-color: white; 
+    color: black; 
+    font-family: "DidotReg-GPSR15", serif;
 }
 
-div[type="poem"] > head {
-    color: #6ca0dc;
-    font-size: 40px;
+
+teiHeader {
+    background-color: white; 
+    display: block;
+    padding: 15px;
+    border-bottom: 120px solid black;
+}
+
+titleStmt {
+    display: block;
+}
+title {
+    display: block;
+    font-size: 1.8em;
     font-weight: bold;
     text-align: center;
-    font-family: "Bodoni MT", serif;
-    margin-top: 40px;
 }
 
-front > div > head {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 30px;
-    font-family: "Bodoni MT", serif;
+title:after {
+    content: "— Édition numérique —";
+    display: block;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: black;
 }
 
-l, p {
-    text-align: left;
-    font-size: 20px;
+
+publicationStmt {
+    display: inline;
+}
+
+publicationStmt:after {
+    content:"\a";
+    white-space: pre;
+}
+
+publisher::after {
+    display: inline;
+    content: ": ";
+    color: black;
+}
+
+
+sourceDesc::before {
+    content: "Source :";
+    display: inline;
+    font-family: "DidotItal-GPSR15", serif;
+    color: black;
+}
+
+
+profileDesc {
+    display: none;
+}
+
+
+body {
+    background-color: white; 
+    color: black;
+    margin: 20pt;
+    line-height: 1.5em;
+    font-size: 1.05em;
     font-family: "DidotReg-GPSR15", serif;
-    line-height: 1;
-    margin-bottom: 0.3em;
+    display: block;
 }
 
-back p {
-    text-align: left;
-    font-size: 20px;
+p {
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+name[ana="person"] {
+    padding: 3px 6px;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    color: black;
+}
+
+
+idno {
+    color: black;
+    display: block;
+    font-size: 0.9em;
     font-family: "DidotItal-GPSR15", serif;
-    line-height: 1;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
-hi[rend="italic"] {
-    font-style: normal;
+
+front {
+    display: block;
+    margin: 30px 0;
+}
+
+div[type="contents"] {
+    margin-bottom: 50px;
+}
+
+div[type="contents"] head {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+list {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+item {
+    display: list-item;
+    list-style: upper-roman;
+    margin-left: 20px;
+    color: black;
+}
+
+
+div[type="poem"] head {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+
+lg {
+    display: block;
+    margin-bottom: 18px;
+}
+
+
+l {
+    display: block;
+    margin-left: 30px;
+}
+
+
+back {
+    display: block;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid firebrick;
+}
+
+div[type="colophon"] {
+    text-align: center;
     font-family: "DidotItal-GPSR15", serif;
+    color: black;
 }
 
-select,
-option {
-    font-family: "DidotItal-GPSR15", serif;
-    font-size: 18px;
+
+
+div[type="contents"] {
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  text-align: center;
 }
 
-@media (max-width: 600px) {
-    TEI, text, body {
-        padding: 4vw;
-    }
+div[type="contents"] head {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  display: block;
 }
 
-@media (min-width: 1200px) {
-    TEI, text, body {
-        padding: 3vw;
-    }
+
+div[type="contents"] list {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
-a {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-thickness: 0.5px;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #6ca0dc;
+div[type="contents"] item {
+  display: list-item;
+  margin-left: 20px;
 }

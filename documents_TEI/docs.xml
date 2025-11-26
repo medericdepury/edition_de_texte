@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="documents_TEI/mystyle.css" type="text/css"?>
+<?xml-stylesheet href="mystyle.css" type="text/css"?>
 <?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -12,7 +12,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p>Not for distribution.</p>
+        <p>Accès restreint.</p>
       </publicationStmt>
       <sourceDesc>
        <p>Textes mis en musique tirés de The LiederNet Archive (https://www.lieder.net/).</p>
