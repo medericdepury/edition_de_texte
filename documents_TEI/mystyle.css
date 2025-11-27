@@ -1,20 +1,21 @@
 TEI {
-    background-color: white; 
-    color: black; 
-    font-family: "DidotReg-GPSR15", serif;
+    background-color: white;
+    color: black;
+    font-family: "Gellix", serif;
 }
 
 
 teiHeader {
-    background-color: white; 
+    background-color: white;
     display: block;
     padding: 15px;
-    border-bottom: 120px solid black;
+    border-bottom: 1px solid black;
 }
 
 titleStmt {
     display: block;
 }
+
 title {
     display: block;
     font-size: 1.8em;
@@ -36,7 +37,7 @@ publicationStmt {
 }
 
 publicationStmt:after {
-    content:"\a";
+    content: "\a";
     white-space: pre;
 }
 
@@ -50,7 +51,7 @@ publisher::after {
 sourceDesc::before {
     content: "Source :";
     display: inline;
-    font-family: "DidotItal-GPSR15", serif;
+    font-style: italic;
     color: black;
 }
 
@@ -61,12 +62,12 @@ profileDesc {
 
 
 body {
-    background-color: white; 
+    background-color: white;
     color: black;
     margin: 20pt;
     line-height: 1.5em;
     font-size: 1.05em;
-    font-family: "DidotReg-GPSR15", serif;
+    font-family: "Gellix", serif;
     display: block;
 }
 
@@ -89,7 +90,7 @@ idno {
     color: black;
     display: block;
     font-size: 0.9em;
-    font-family: "DidotItal-GPSR15", serif;
+    font-style: italic;
     margin-top: 5px;
 }
 
@@ -108,7 +109,6 @@ div[type="contents"] head {
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
-    border-bottom: 1px solid black;
 }
 
 list {
@@ -126,9 +126,10 @@ item {
 
 
 div[type="poem"] head {
-    text-align: center;
-    font-size: 1.8em;
-    margin-bottom: 25px;
+    display: block;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 20px;
     color: black;
     font-weight: bold;
 }
@@ -150,38 +151,38 @@ back {
     display: block;
     margin-top: 60px;
     padding-top: 20px;
-    border-top: 1px solid firebrick;
+    border-top: 1px solid black;
 }
 
 div[type="colophon"] {
     text-align: center;
-    font-family: "DidotItal-GPSR15", serif;
+    font-style: italic;
     color: black;
 }
 
 
 
 div[type="contents"] {
-  margin: 0 auto;
-  padding: 20px;
-  display: block;
-  text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
 }
 
 div[type="contents"] head {
-  font-size: 1.6em;
-  margin-bottom: 15px;
-  display: block;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    display: block;
 }
 
 
 div[type="contents"] list {
-  display: inline-block;
-  text-align: left;
-  margin-bottom: 30px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 div[type="contents"] item {
-  display: list-item;
-  margin-left: 20px;
+    display: list-item;
+    margin-left: 20px;
 }
