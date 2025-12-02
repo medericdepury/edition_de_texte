@@ -1,62 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="mystyle.css" type="text/css"?>
 <?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Poèmes lyriques</title>
         <respStmt>
-          <resp>Éditeur,</resp>
+          <resp>Éditeur</resp>
           <name xml:id="MdP">Médéric de Pury</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p>Accès restreint.</p>
+        <availability status="restricted">
+          <p>Accès restreint.</p>
+        </availability>
       </publicationStmt>
       <sourceDesc>
-       <p>Textes mis en musique tirés de The LiederNet Archive (https://www.lieder.net/).</p>
+        <p>Textes mis en musique tirés de The LiederNet Archive (https://www.lieder.net/).</p>
       </sourceDesc>
-
-    </fileDesc>
-  </teiHeader>
-
-  <text>
-
-    <front>
       <div type="contents">
         <head>Contenu</head>
         <list>
-          <item>Am Sonntag morgen, zierlich angetan</item>
-
+          <item>Der Wanderer an den Mond</item>
         </list>
       </div>
-    </front>
-
-<body>
-  <div type="poem">
-    <head>Am Sonntag morgen, zierlich angetan</head>
-
-    <lg>
-      <l>Am Sonntag morgen, zierlich angetan,</l>
-      <l>Wohl weiß ich, wo du da bist hingegangen,</l>
-      <l>Und manche Leute waren, die dich sahn,</l>
-      <l>Und kamen dann zu mir, dich zu verklagen.</l>
-      <l>Als sie mir’s sagten, hab’ ich laut gelacht</l>
-      <l>Und in der Kammer dann geweint zu Nacht.</l>
-      <l>Als sie mir’s sagten, fing ich an zu singen,</l>
-      <l>Um einsam dann die Hände wund zu ringen.</l>
-    </lg>
-
-  </div>
-</body>
-
-
-    <back>
-      <div type="colophon">
-        <p>Édition de texte : introduction à l’édition numérique avec TEI</p>
+    </fileDesc>
+  </teiHeader>
+  <TEI xml:id="schubert1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Der Wanderer an den Mond</title>
+        <respStmt>
+          <resp>Texte de</resp>
+          <name xml:id="author">G. Ph. Schmidt von Lübeck</name>
+        </respStmt>
+        <idno type="Opus">D 224</idno>
+        <respStmt>
+          <resp>Musique de</resp>
+          <name xml:id="composer">Fr. Schubert</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg>
+          <l>Ich auf der Erd’, am Himmel du,</l>
+          <l>Wir wandern beide rüstig zu: –</l>
+          <l>Ich ernst und trüb, du mild und rein,</l>
+          <l>Was mag der Unterschied wol seyn?</l>
+        </lg>
+        <lg>
+          <l>Ich wandre fremd von Land zu Land,</l>
+          <l>So heimatlos, so unbekannt;</l>
+          <l>Bergauf, bergab, waldein, waldaus,</l>
+          <l>Doch bin ich nirgend – ach! – zu Haus.</l>
+        </lg>
+        <lg>
+          <l>Du aber wanderst auf und ab</l>
+          <l>Aus Ostens Wieg’ in Westens Grab, –</l>
+          <l>Wallst länderein und länderaus,</l>
+          <l>Und bist doch, wo du bist, zu Haus.</l>
+        </lg>
+        <lg>
+          <l>Der Himmel, endlos ausgespannt,</l>
+          <l>Ist dein geliebtes Heimatland:</l>
+          <l>O glücklich, wer wohin er geht,</l>
+          <l>Doch auf der Heimat Boden steht!</l>
+        </lg>
       </div>
-    </back>
-
+    </body>
   </text>
 </TEI>
+      <back>
+        <div type="colophon">
+          <p>Édition de texte : introduction à l’édition numérique avec TEI</p>
+        </div>
+      </back>
+    </text>
+  </TEI>
+</teiCorpus>
