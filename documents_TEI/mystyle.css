@@ -1,7 +1,9 @@
 TEI {
     background-color: white;
     color: black;
-    font-family: "Gellix", serif;
+    font-family: "Junicode", serif;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 
@@ -67,7 +69,7 @@ body {
     margin: 20pt;
     line-height: 1.5em;
     font-size: 1.05em;
-    font-family: "Gellix", serif;
+    font-family: "Junicode", serif;
     display: block;
 }
 
