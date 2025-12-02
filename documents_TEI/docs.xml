@@ -2,6 +2,8 @@
 <?xml-stylesheet href="mystyle.css" type="text/css"?>
 <?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+
+  <!-- En-tête du corpus -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,64 +31,58 @@
   </teiHeader>
 
   <TEI xml:id="schubert1">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Der Wanderer an den Mond</title>
-        <respStmt>
-          <resp>Texte de</resp>
-          <name xml:id="author">G. Ph. Schmidt von Lübeck</name>
-        </respStmt>
-        <idno type="Opus">D 224</idno>
-        <respStmt>
-          <resp>Musique de</resp>
-          <name xml:id="composer">Fr. Schubert</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="poem">
-        <lg>
-          <l>Ich auf der Erd’, am Himmel du,</l>
-          <l>Wir wandern beide rüstig zu: –</l>
-          <l>Ich ernst und trüb, du mild und rein,</l>
-          <l>Was mag der Unterschied wol seyn?</l>
-        </lg>
-        <lg>
-          <l>Ich wandre fremd von Land zu Land,</l>
-          <l>So heimatlos, so unbekannt;</l>
-          <l>Bergauf, bergab, waldein, waldaus,</l>
-          <l>Doch bin ich nirgend – ach! – zu Haus.</l>
-        </lg>
-        <lg>
-          <l>Du aber wanderst auf und ab</l>
-          <l>Aus Ostens Wieg’ in Westens Grab, –</l>
-          <l>Wallst länderein und länderaus,</l>
-          <l>Und bist doch, wo du bist, zu Haus.</l>
-        </lg>
-        <lg>
-          <l>Der Himmel, endlos ausgespannt,</l>
-          <l>Ist dein geliebtes Heimatland:</l>
-          <l>O glücklich, wer wohin er geht,</l>
-          <l>Doch auf der Heimat Boden steht!</l>
-        </lg>
-      </div>
-    </body>
-  </text>
-</TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Der Wanderer an den Mond</title>
+        </titleStmt>
+        <extent>Texte de G. Ph. Schmidt von Lübeck – Musique de Fr. Schubert (D 224)</extent>
+        <publicationStmt>
+          <p></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Ich auf der Erd’, am Himmel du,</l>
+            <l>Wir wandern beide rüstig zu: –</l>
+            <l>Ich ernst und trüb, du mild und rein,</l>
+            <l>Was mag der Unterschied wol seyn?</l>
+          </lg>
+          <lg>
+            <l>Ich wandre fremd von Land zu Land,</l>
+            <l>So heimatlos, so unbekannt;</l>
+            <l>Bergauf, bergab, waldein, waldaus,</l>
+            <l>Doch bin ich nirgend – ach! – zu Haus.</l>
+          </lg>
+          <lg>
+            <l>Du aber wanderst auf und ab</l>
+            <l>Aus Ostens Wieg’ in Westens Grab, –</l>
+            <l>Wallst länderein und länderaus,</l>
+            <l>Und bist doch, wo du bist, zu Haus.</l>
+          </lg>
+          <lg>
+            <l>Der Himmel, endlos ausgespannt,</l>
+            <l>Ist dein geliebtes Heimatland:</l>
+            <l>O glücklich, wer wohin er geht,</l>
+            <l>Doch auf der Heimat Boden steht!</l>
+          </lg>
+        </div>
+      </body>
+
       <back>
         <div type="colophon">
           <p>Édition de texte : introduction à l’édition numérique avec TEI</p>
         </div>
       </back>
+
     </text>
   </TEI>
+
 </teiCorpus>

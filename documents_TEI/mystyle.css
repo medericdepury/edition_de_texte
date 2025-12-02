@@ -66,21 +66,9 @@ sourceDesc::before {
     color: black;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-/* Centrer l'idno */
-header idno[type="Opus"] {
-  margin: 0 auto;
-  text-align: center;
-}
-
 profileDesc {
     display: none;
 }
-
 
 body {
     background-color: white;
