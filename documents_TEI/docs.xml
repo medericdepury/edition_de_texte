@@ -9,7 +9,7 @@
       <titleStmt>
         <title>Poèmes lyriques</title>
         <respStmt>
-          <resp>Éditeur</resp>
+          <resp>Éditeur :</resp>
           <name xml:id="MdP">Médéric de Pury</name>
         </respStmt>
       </titleStmt>
@@ -30,21 +30,25 @@
     </fileDesc>
   </teiHeader>
 
-  <TEI xml:id="schubert1">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Der Wanderer an den Mond</title>
+<TEI xml:id="schubert1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Der Wanderer an den Mond</title>
+        <author>G. Ph. Schmidt von Lübeck</author>
+        <p></p>
+        <author>Fr. Schubert</author>
+        <p></p>
+        <author>D 224</author>
         </titleStmt>
-        <extent>Texte de G. Ph. Schmidt von Lübeck – Musique de Fr. Schubert (D 224)</extent>
-        <publicationStmt>
-          <p></p>
-        </publicationStmt>
-        <sourceDesc>
-          <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
 
     <text>
       <body>
