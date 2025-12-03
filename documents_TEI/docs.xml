@@ -19,7 +19,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Textes mis en musique tirés de The LiederNet Archive (https://www.lieder.net/).</p>
+        <p>Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet Archive</ref>.</p>
       </sourceDesc>
       <div type="contents">
         <head>Contenu</head>
@@ -45,7 +45,7 @@
         <p></p>
       </publicationStmt>
       <sourceDesc>
-        <p>LiederNet Archive (https://www.lieder.net/lieder/get_text.html?TextId=14746).</p>
+        <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">The LiederNet Archive</ref></p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>

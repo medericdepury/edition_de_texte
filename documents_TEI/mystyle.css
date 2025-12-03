@@ -58,7 +58,6 @@ publisher::after {
     color: black;
 }
 
-
 sourceDesc::before {
     content: "Source :";
     display: inline;
@@ -194,4 +193,9 @@ div[type="contents"] list {
 div[type="contents"] item {
     display: list-item;
     margin-left: 20px;
+}
+
+ref {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2px;
 }
