@@ -4,9 +4,9 @@
 
 Cette édition numérique présente un corpus de poèmes lyriques en allemand. L'analyse et l'organisation de l'édition sont volontairement structurées autour de trois axes thématiques principaux :
 
-1. **la nature** ;  
-2. **l'amour heureux** ;
-3. **l'amour douloureux**.
+1. **la nature** - Natur ;  
+2. **l'amour heureux** - Glück ;
+3. **l'amour douloureux** - Pein.
 
 Les fichiers TEI souligneront ces trois champs lexicaux.
 
