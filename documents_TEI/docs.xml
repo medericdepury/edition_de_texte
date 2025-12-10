@@ -3,7 +3,6 @@
 <?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
 
-  <!-- En-tête du corpus -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,13 +12,9 @@
           <name xml:id="MdP">Médéric de Pury</name>
         </respStmt>
       </titleStmt>
-      <publicationStmt>
-        <availability status="restricted">
-          <p>Accès restreint.</p>
-        </availability>
-      </publicationStmt>
       <sourceDesc>
-        <p>Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet Archive</ref>.</p>
+        <p>Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet
+          Archive</ref>.</p>
       </sourceDesc>
       <div type="contents">
         <head>Contenu</head>
@@ -30,31 +25,32 @@
     </fileDesc>
   </teiHeader>
 
-<TEI xml:id="schubert1">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Der Wanderer an den Mond</title>
-        <author>G. Ph. Schmidt von Lübeck</author>
-        <p></p>
-        <author>Fr. Schubert</author>
-        <p></p>
-        <author>D 224</author>
+  <TEI xml:id="schubert1">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Der Wanderer an den Mond</title>
+          <author>G. Ph. Schmidt von Lübeck</author>
+          <p></p>
+          <author>Fr. Schubert</author>
+          <p></p>
+          <author>D 224</author>
         </titleStmt>
-      <publicationStmt>
-        <p></p>
-      </publicationStmt>
-      <sourceDesc>
-        <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">The LiederNet Archive</ref></p>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
+        <publicationStmt>
+          <p></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">The LiederNet
+            Archive</ref></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
 
     <text>
       <body>
         <div type="poem">
           <lg>
-            <l>Ich auf der Erd’, am Himmel du,</l>
+            <l>Ich auf der <seg ana="Natur">Erd’</seg>, am <seg ana="Natur">Himmel</seg> du,</l>
             <l>Wir wandern beide rüstig zu: –</l>
             <l>Ich ernst und trüb, du mild und rein,</l>
             <l>Was mag der Unterschied wol seyn?</l>
@@ -62,7 +58,7 @@
           <lg>
             <l>Ich wandre fremd von Land zu Land,</l>
             <l>So heimatlos, so unbekannt;</l>
-            <l>Bergauf, bergab, waldein, waldaus,</l>
+            <l><seg ana="Natur">Berg</seg>auf, <seg ana="Natur">berg</seg>ab, <seg ana="Natur">wald</seg>ein, <seg ana="Natur">wald</seg>aus,</l>
             <l>Doch bin ich nirgend – ach! – zu Haus.</l>
           </lg>
           <lg>
@@ -72,10 +68,61 @@
             <l>Und bist doch, wo du bist, zu Haus.</l>
           </lg>
           <lg>
-            <l>Der Himmel, endlos ausgespannt,</l>
-            <l>Ist dein geliebtes Heimatland:</l>
-            <l>O glücklich, wer wohin er geht,</l>
+            <l>Der <seg ana="Natur">Himmel</seg>, endlos ausgespannt,</l>
+            <l>Ist dein <seg ana="Glück">geliebtes</seg> Heimatland:</l>
+            <l>O <seg ana="Glück">glücklich</seg>, wer wohin er geht,</l>
             <l>Doch auf der Heimat Boden steht!</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>An den Mond</title>
+          <author>L. H. Chr. Hölty</author>
+          <p></p>
+          <author>Fr. Schubert</author>
+          <p></p>
+          <author>D 193</author>
+        </titleStmt>
+        <publicationStmt>
+          <p></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=8276">The LiederNet
+            Archive</ref></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Geuß, lieber <seg ana="Natur">Mond</seg>, geuß deine Silberflimmer</l>
+            <l>Durch dieses <seg ana="Natur">Buchen</seg>grün,</l>
+            <l>Wo <seg ana="Glück">Phantasien</seg> und <seg ana="Glück">Traumgestalten</seg> immer</l>
+            <l>Vor mir vorüberfliehn!</l>
+          </lg>
+          <lg>
+            <l>Enthülle dich, daß ich die Stätte finde,</l>
+            <l>Wo oft mein Mädchen saß,</l>
+            <l>Und oft, im Wehn des <seg ana="Natur">Buchbaums</seg> und der <seg ana="Natur">Linde</seg>,</l>
+            <l>Der goldnen Stadt vergaß!</l>
+          </lg>
+          <lg>
+            <l>Enthülle dich, daß ich des <seg ana="Natur">Strauchs</seg> mich <seg ana="Glück">freue</seg>,</l>
+            <l>Der Kühlung ihr gerauscht,</l>
+            <l>Und einen Kranz auf jeden <seg ana="Natur">Anger</seg> streue,</l>
+            <l>Wo sie den <seg ana="Natur">Bach</seg> belauscht!</l>
+          </lg>
+          <lg>
+            <l>Dann, lieber <seg ana="Natur">Mond</seg>, dann nimm den Schleier wieder,</l>
+            <l>Und <seg ana="Pein">traur’</seg> um deinen Freund,</l>
+            <l>Und <seg ana="Pein">weine</seg> durch den <seg ana="Natur">Wolkenflor</seg> hernieder,</l>
+            <l>Wie dein Verlaßner <seg ana="Pein">weint</seg>!</l>
           </lg>
         </div>
       </body>
@@ -85,8 +132,7 @@
           <p>Édition de texte : introduction à l’édition numérique avec TEI</p>
         </div>
       </back>
-
+      
     </text>
   </TEI>
-
 </teiCorpus>

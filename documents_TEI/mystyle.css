@@ -199,3 +199,21 @@ ref {
     text-decoration: underline;
     text-decoration-thickness: 0.2px;
 }
+
+seg[ana="Natur"] {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+seg[ana="Glück"] {
+    color: rgb(210, 199, 0);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+seg[ana="Pein"] {
+    color: rgb(0, 0, 197);
+    font-weight: bold;
+    text-decoration: underline;
+}
