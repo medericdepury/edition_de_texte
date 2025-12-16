@@ -499,39 +499,45 @@
         <div type="poem">
           <lg>
             <l>La Noël passée,</l>
-            <l>Pauvret orphelin.</l>
-            <l>Ma gueule affamée,</l>
+            <l>Povret orphelin.</l>
+            <l>Ma goule affamée,</l>
             <l>N'avait plus de pain</l>
-            <l>M'en fus sous fenêtre</l>
-            <l>Du bon Roi Henri,</l>
-            <l>Et lui dis : « Mon Maitre,</l>
+            <l>M'en fus sous fenestre</l>
+            <l>Du bon Roy Henry,</l>
+            <l>Et lui dis : « Mon Maistre,</l>
             <l>Oyez bien ceci. »</l>
-          </lg>
-          <lg>
-            <l>Prenez vos musettes</l>
-            <l>Et vos épinettes</l>
-            <l>Jésus, cette nuit,</l>
-            <l>S'est fait tout petit.</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
           </lg>
           <lg>
             <l>En cette nuitée,</l>
             <l>Au vieux temps jadis.</l>
-            <l>Naquit en Judée,</l>
+            <l>Naquit en Judée</l>
             <l>Un de mes amis</l>
             <l>Avait pour couchette</l>
             <l>Une crèche en bois,</l>
-            <l>Et dans la pauvrette</l>
+            <l>Et dans la povrette</l>
             <l>Des ramas de pois.</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
           </lg>
           <lg>
             <l>Et de sa chambrette,</l>
             <l>Oyant mon récit,</l>
-            <l>Avec amourette</l>
-            <l>Le bon Roi sourit.</l>
+            <l>Avecque amourette</l>
+            <l>Le bon Roy sourit.</l>
             <l>Prit en sa cassette</l>
             <l>Deux écus dorés;</l>
             <l>De sa main doucette</l>
             <l>Me les a donnés.</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
           </lg>
           <lg>
             <l>Disant : « Petit ange,</l>
@@ -539,9 +545,13 @@
             <l>Afin que tu manges,</l>
             <l>Voilà de l'argent</l>
             <l>Pour la douce France</l>
-            <l>Et son Roi Henri,</l>
-            <l>Prie avec instance</l>
-            <l>Ton petit ami ! »</l>
+            <l>Et son Roy Henry,</l>
+            <l>Prie avecque instance</l>
+            <l>Ton petit amy! »</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
           </lg>
         </div>
       </body>
