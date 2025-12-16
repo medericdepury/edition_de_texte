@@ -42,7 +42,6 @@ title:after {
     color: black;
 }
 
-
 publicationStmt {
     display: inline;
 }
@@ -55,6 +54,7 @@ publicationStmt:after {
 publisher::after {
     display: inline;
     content: ": ";
+    font-style: "italic";
     color: black;
 }
 
@@ -84,7 +84,6 @@ p {
     margin-bottom: 1em;
 }
 
-
 name[ana="person"] {
     padding: 3px 6px;
     background-color: white;
@@ -93,7 +92,6 @@ name[ana="person"] {
     color: black;
 }
 
-
 idno {
     color: black;
     display: block;
@@ -101,7 +99,6 @@ idno {
     font-style: italic;
     margin-top: 5px;
 }
-
 
 front {
     display: block;
@@ -132,7 +129,6 @@ item {
     color: black;
 }
 
-
 div[type="poem"] head {
     display: block;
     text-align: left;
@@ -142,18 +138,15 @@ div[type="poem"] head {
     font-weight: bold;
 }
 
-
 lg {
     display: block;
     margin-bottom: 18px;
 }
 
-
 l {
     display: block;
     margin-left: 30px;
 }
-
 
 back {
     display: block;
@@ -168,8 +161,6 @@ div[type="colophon"] {
     color: black;
 }
 
-
-
 div[type="contents"] {
     margin: 0 auto;
     padding: 20px;
@@ -182,7 +173,6 @@ div[type="contents"] head {
     margin-bottom: 15px;
     display: block;
 }
-
 
 div[type="contents"] list {
     display: inline-block;
@@ -216,4 +206,19 @@ seg[ana="Pein"] {
     color: rgb(0, 0, 197);
     font-weight: bold;
     text-decoration: underline;
+}
+
+titleStmt author::before {
+    content: "Texte : ";
+    font-style: italic;
+}
+
+titleStmt editor::before {
+    content: "\A Musique : ";
+    white-space: pre;
+    font-style: italic;
+}
+
+respStmt resp {
+    font-style: italic;
 }

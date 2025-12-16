@@ -2,19 +2,18 @@
 <?xml-stylesheet href="mystyle.css" type="text/css"?>
 <?xml-model href="schemas/document.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-
+  
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Poèmes lyriques</title>
         <respStmt>
-          <resp>Éditeur :</resp>
+          <resp>Édition :</resp>
           <name xml:id="MdP">Médéric de Pury</name>
         </respStmt>
       </titleStmt>
       <sourceDesc>
-        <p>Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet Archive</ref>.</p>
-      </sourceDesc>
+        <p>Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet Archive</ref>.</p></sourceDesc>
       <div type="contents">
         <head>Contenu</head>
         <list>
@@ -30,33 +29,30 @@
           <item>Traum durch die Dämmerung</item>
           <item>La Noël passée</item>
           <item>Noël</item>
-
+          
         </list>
       </div>
     </fileDesc>
   </teiHeader>
-
+  
   <TEI xml:id="schubert1">
     <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>Der Wanderer an den Mond</title>
           <author>G. Ph. Schmidt von Lübeck</author>
-          <p></p>
-          <author>Fr. Schubert</author>
-          <p></p>
-          <author>D 224</author>
+          <editor>Fr. Schubert (D 224)</editor>
         </titleStmt>
         <publicationStmt>
           <p></p>
         </publicationStmt>
         <sourceDesc>
           <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">The LiederNet
-            Archive</ref></p>
+              Archive</ref></p>
         </sourceDesc>
       </fileDesc>
     </teiHeader>
-
+    
     <text>
       <body>
         <div type="poem">
@@ -87,27 +83,25 @@
         </div>
       </body>
     </text>
-
+  </TEI>
+  
+  <TEI xml:id="schubert2">
     <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>An den Mond</title>
           <author>L. H. Chr. Hölty</author>
-          <p></p>
-          <author>Fr. Schubert</author>
-          <p></p>
-          <author>D 193</author>
+          <editor>Fr. Schubert (D 193)</editor>
         </titleStmt>
         <publicationStmt>
           <p></p>
         </publicationStmt>
         <sourceDesc>
-          <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=8276">The LiederNet
-            Archive</ref></p>
+          <p><ref target="https://www.lieder.net/lieder/get_text.html?TextId=8276">The LiederNet Archive</ref></p>
         </sourceDesc>
       </fileDesc>
     </teiHeader>
-
+    
     <text>
       <body>
         <div type="poem">
@@ -137,13 +131,13 @@
           </lg>
         </div>
       </body>
-
+      
       <back>
         <div type="colophon">
           <p>Édition de texte : introduction à l’édition numérique avec TEI</p>
         </div>
       </back>
-
+      
     </text>
   </TEI>
 </teiCorpus>
