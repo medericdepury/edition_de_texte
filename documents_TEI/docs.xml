@@ -32,11 +32,7 @@
           <author>G. Ph. Schmidt von Lübeck</author>
           <editor>Fr. Schubert (D 224)</editor>
         </titleStmt>
-        
-        <publicationStmt>
-          <p>—</p>
-        </publicationStmt>
-        
+        <publicationStmt><p></p></publicationStmt>
         <sourceDesc>
           <p>
             <ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">
@@ -269,7 +265,7 @@
           </lg>
           <lg>
             <l>Und schöne weiße Wolken ziehn dahin</l>
-            <l>Durchs tiefe Blau, wie schöne stille Träume; –-</l>
+            <l>Durchs tiefe Blau, wie schöne stille Träume; –</l>
             <l>Mir ist, als ob ich längst gestorben bin,</l>
             <l>Und ziehe selig mit durch ew’ge Räume.</l>
           </lg>
