@@ -222,3 +222,7 @@ titleStmt editor::before {
 respStmt resp {
     font-style: italic;
 }
+
+l[rend="refrain"] {
+  margin-left: 4em;
+}
