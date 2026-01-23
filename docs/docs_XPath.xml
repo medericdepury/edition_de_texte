@@ -1,0 +1,613 @@
+<?xml-stylesheet href="mystyle.css" type="text/css"?><?xml-model href="document.xsd"
+  type="application/xml"
+  schematypens="http://www.w3.org/2001/XMLSchema"?><teiCorpus>
+  
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Poèmes lyriques</title>
+        <respStmt>
+          <resp>Édition : </resp>
+          <name id="MdP">Médéric de Pury</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <p>
+          Textes mis en musique tirés de <ref target="https://www.lieder.net/">The LiederNet Archive</ref>.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  
+  <TEI id="schubert1">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Der Wanderer an den Mond</title>
+          <author>G. Ph. Schmidt von Lübeck</author>
+          <editor>Fr. Schubert (D 224)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=14746">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          
+          <lg>
+            <l>Ich auf der <seg ana="Natur">Erd’</seg>, am <seg ana="Natur">Himmel</seg> du,</l>
+            <l>Wir wandern beide rüstig zu:</l>
+            <l>Ich ernst und <seg ana="Pein">trüb</seg>, du mild und rein,</l>
+            <l>Was mag der Unterschied wohl sein?</l>
+          </lg>
+          
+          <lg>
+            <l>Ich wandre <seg ana="Pein">fremd</seg> von Land zu Land,</l>
+            <l>So <seg ana="Pein">heimatlos</seg>, so unbekannt;</l>
+            <l><seg ana="Natur">Berg</seg>auf, <seg ana="Natur">berg</seg>ab, <seg ana="Natur">Wald</seg>ein, <seg ana="Natur">Wald</seg>aus,</l>
+            <l>Doch bin ich nirgend, ach, zu Haus.</l>
+          </lg>
+          
+          <lg>
+            <l>Du aber wanderst auf und ab</l>
+            <l>Aus Ostens Wieg’ in Westens Grab,</l>
+            <l>Wallst länderein und länderaus,</l>
+            <l>Und bist doch, wo du bist, zu Haus.</l>
+          </lg>
+          
+          <lg>
+            <l>Der <seg ana="Natur">Himmel</seg>, endlos ausgespannt,</l>
+            <l>Ist dein <seg ana="Glück">geliebtes</seg> Heimatland:</l>
+            <l>O <seg ana="Glück">glücklich</seg>, wer wohin er geht,</l>
+            <l>Doch auf der Heimat Boden steht!</l>
+          </lg>
+          
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="schubert2">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>An den Mond</title>
+          <author>L. H. Chr. Hölty</author>
+          <editor>Fr. Schubert (D 193)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=8276">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          
+          <lg>
+            <l>Geuß, lieber <seg ana="Natur">Mond</seg>, geuß deine Silberflimmer</l>
+            <l>Durch dieses <seg ana="Natur">Buchen</seg>grün,</l>
+            <l>Wo <seg ana="Glück">Phantasien</seg> und <seg ana="Glück">Traumgestalten</seg> immer</l>
+            <l>Vor mir vorüberfliehn!</l>
+          </lg>
+          
+          <lg>
+            <l>Enthülle dich, daß ich die Stätte finde,</l>
+            <l>Wo oft mein <seg ana="Liebe">Mädchen</seg> saß,</l>
+            <l>Und oft, im Wehn des <seg ana="Natur">Buchbaums</seg> und der <seg ana="Natur">Linde</seg>,</l>
+            <l>Der goldnen Stadt vergaß!</l>
+          </lg>
+          
+          <lg>
+            <l>Enthülle dich, daß ich des <seg ana="Natur">Strauchs</seg> mich <seg ana="Glück">freue</seg>,</l>
+            <l>Der Kühlung ihr gerauscht,</l>
+            <l>Und einen Kranz auf jeden <seg ana="Natur">Anger</seg> streue,</l>
+            <l>Wo sie den <seg ana="Natur">Bach</seg> belauscht!</l>
+          </lg>
+          
+          <lg>
+            <l>Dann, lieber <seg ana="Natur">Mond</seg>, dann nimm den Schleier wieder,</l>
+            <l>Und <seg ana="Pein">trau’r</seg> um deinen Freund,</l>
+            <l>Und <seg ana="Pein">weine</seg> durch den <seg ana="Natur">Wolkenflor</seg> hernieder,</l>
+            <l>Wie dein Verlaßner <seg ana="Pein">weint</seg>!</l>
+          </lg>
+          
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="brahms1">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>So hab’ ich doch die ganze Woche</title>
+          <author>J. L. Uhland</author>
+          <editor>J. Brahms (op. 47 nº 3)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=16084">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          
+          <lg>
+            <l>So hab’ ich doch die ganze Woche</l>
+            <l>Mein feines <seg ana="Glück">Liebchen</seg> nicht geseh’n,</l>
+            <l>Ich sah es an einem Sonntag</l>
+            <l>Wohl vor der Türe steh’n:</l>
+            <l rend="refrain">Das tausendschöne Jungfräulein,</l>
+            <l rend="refrain">Das tausendschöne <seg ana="Glück">Herze</seg>lein,</l>
+            <l rend="refrain">Wollte Gott, wollte Gott, ich wär’ heute bei ihr!</l>
+          </lg>
+          
+          <lg>
+            <l>So will mir doch die ganze Woche</l>
+            <l>Das <seg ana="Glück">Lachen</seg> nicht vergeh’n,</l>
+            <l>Ich sah es an einem Sonntag</l>
+            <l>Wohl in die Kirche geh’n:</l>
+            <l rend="refrain">Das tausendschöne Jungfräulein,</l>
+            <l rend="refrain">Das tausendschöne <seg ana="Glück">Herze</seg>lein,</l>
+            <l rend="refrain">Wollte Gott, wollte Gott, ich wär’ heute bei ihr!</l>
+          </lg>
+          
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI id="brahms2">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Es glänzt der Mond nieder</title>
+          <author>J. Wenzig</author>
+          <editor>J. Brahms (op. 48 nº 1) </editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=17340">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Es glänzt der <seg ana="Natur">Mond</seg> nieder,</l>
+            <l>Ich sollte doch wieder</l>
+            <l>Zu meinem <seg ana="Glück">Liebchen</seg>,</l>
+            <l>Wie mag es ihr geh’n?</l>
+          </lg>
+          <lg>
+            <l>Ach <seg ana="Pein">weh’</seg>, sie <seg ana="Pein">verzaget</seg></l>
+            <l>Und <seg ana="Pein">klaget</seg>, und <seg ana="Pein">klaget</seg>,</l>
+            <l>Daß sie mich nimmer</l>
+            <l>Im Leben wird seh’n!</l>
+          </lg>
+          <lg>
+            <l>Es ging der <seg ana="Pein">Mond</seg> unter,</l>
+            <l>Ich eilte doch <seg ana="Glück">munter</seg>,</l>
+            <l>Und eilte daß keiner</l>
+            <l>Mein <seg ana="Glück">Liebchen</seg> entführt.</l>
+          </lg>
+          <lg>
+            <l>Ihr <seg ana="Natur">Täubchen</seg>, o girret,</l>
+            <l>Ihr <seg ana="Natur">Lüftchen</seg>, o schwirret,</l>
+            <l>Daß keiner mein <seg ana="Glück">Liebchen</seg>,</l>
+            <l>Mein <seg ana="Glück">Liebchen</seg> entführt!</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="brahms3">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Feldeinsamkeit</title>
+          <author>H. Allmers</author>
+          <editor>J. Brahms (op. 86 nº 2)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=18687">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Ich ruhe <seg ana="Glück">still</seg> im hohen grünen <seg ana="Natur">Gras</seg></l>
+            <l>Und sende lange meinen Blick nach oben,</l>
+            <l>Von <seg ana="Natur">Grillen</seg> rings umschwirrt ohn Unterlaß,</l>
+            <l>Von <seg ana="Natur">Himmel</seg>sbläue <seg ana="Glück">wundersam</seg> umwoben.</l>
+          </lg>
+          <lg>
+            <l>Und <seg ana="Glück">schöne</seg> weiße <seg ana="Natur">Wolken</seg> ziehn dahin</l>
+            <l>Durchs tiefe Blau, wie <seg ana="Glück">schöne stille Träume</seg>; –</l>
+            <l>Mir ist, als ob ich längst <seg ana="Pein">gestorben</seg> bin,</l>
+            <l>Und ziehe <seg ana="Glück">selig</seg> mit durch ew’ge Räume.</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="brahms4">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Wie Melodien zieht es</title>
+          <author>Kl. Groth</author>
+          <editor>J. Brahms (op. 105 nº 1)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=6931">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Wie Melodien zieht es</l>
+            <l>Mir <seg ana="Glück">leise</seg> durch den <seg ana="Glück">Sinn</seg>,</l>
+            <l>Wie <seg ana="Natur">Frühlingsblumen</seg> <seg ana="Natur">blüht</seg> es,</l>
+            <l>Und schwebt wie Duft dahin.</l>
+          </lg>
+          <lg>
+            <l>Doch kommt das Wort und faßt es</l>
+            <l>Und führt es vor das Aug’</l>
+            <l>Wie <seg ana="Natur">Nebel</seg>grau erblaßt es</l>
+            <l>Und schwindet wie ein Hauch.</l>
+          </lg>
+          <lg>
+            <l>Und dennoch ruht im Reime</l>
+            <l>Verborgen wohl ein Duft,</l>
+            <l>Den <seg ana="Glück">mild</seg> aus <seg ana="Glück">stillem</seg> <seg ana="Natur">Keime</seg></l>
+            <l>Ein <seg ana="Pein">feuchtes</seg> Auge ruft.</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="schumann1">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Im wunderschönen Monat Mai</title>
+          <author>H. Heine</author>
+          <editor>R. Schumann (op. 48 nº 1)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=7628">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Im <seg ana="Glück">wunderschönen</seg> Monat Mai,</l>
+            <l>Als alle <seg ana="Natur">Knospen</seg> sprangen,</l>
+            <l>Da ist in meinem Herzen</l>
+            <l>Die <seg ana="Glück">Liebe</seg> aufgegangen.</l>
+          </lg>
+          <lg>
+            <l>Im <seg ana="Glück">wunderschönen</seg> Monat Mai,</l>
+            <l>Als alle <seg ana="Natur">Vögel</seg> sangen,</l>
+            <l>Da hab’ ich ihr gestanden</l>
+            <l>Mein <seg ana="Glück">Sehnen</seg> und <seg ana="Glück">Verlangen</seg></l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="schumann2">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Ich will meine Seele tauchen</title>
+          <author>H. Heine</author>
+          <editor>R. Schumann (op. 48 nº 5)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=7694">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Ich will meine Seele tauchen</l>
+            <l>In den <seg ana="Natur">Kelch</seg> der <seg ana="Natur">Lilie</seg> hinein;</l>
+            <l>Die <seg ana="Natur">Lilie</seg> soll klingend hauchen</l>
+            <l>Ein Lied von der <seg ana="Glück">Liebsten</seg> mein.</l>
+          </lg>
+          <lg>
+            <l>Das Lied soll schauern und beben</l>
+            <l>Wie der <seg ana="Glück">Kuß</seg> von ihrem Mund,</l>
+            <l>Den sie mir einst gegeben</l>
+            <l>In <seg ana="Glück">wunderbar süßer</seg> Stund’.</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI id="schumann3">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Widmung</title>
+          <author>Fr. Rückert</author>
+          <editor>R. Schumann (op. 25 nº 1)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=14027">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Du meine Seele, du mein Herz,</l>
+            <l>Du meine <seg ana="Glück">Wonn’</seg>, o du mein <seg ana="Pein">Schmerz</seg>,</l>
+            <l>Du meine <seg ana="Natur">Welt</seg>, in der ich lebe,</l>
+            <l>Mein <seg ana="Natur">Himmel</seg> du, darein ich schwebe,</l>
+            <l>O du mein <seg ana="Pein">Grab</seg>, in das hinab</l>
+            <l>Ich ewig meinen <seg ana="Pein">Kummer</seg> gab!</l>
+            <l>Du bist die <seg ana="Glück">Ruh</seg>, du bist der <seg ana="Glück">Frieden</seg>,</l>
+            <l>Du bist der <seg ana="Natur">Himmel</seg>, mir beschieden.</l>
+            <l>Daß du mich <seg ana="Glück">liebst</seg>, macht mich mir werth,</l>
+            <l>Dein Blick hat mich vor mir <seg ana="Glück">verklärt</seg>,</l>
+            <l>Du hebst mich <seg ana="Glück">liebend</seg> über mich,</l>
+            <l>Mein <seg ana="Glück">guter</seg> Geist, mein <seg ana="Glück">beßres</seg> Ich!</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="strauss">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Weite Wiesen im Dämmergrau</title>
+          <author>O. J. Bierbaum</author>
+          <editor>R. Strauss (op. 29 nº 1)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=2572">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>Weite <seg ana="Natur">Wiesen</seg> im <seg ana="Natur">Dämmer</seg>grau;</l>
+            <l>die <seg ana="Natur">Sonne</seg> verglomm, die <seg ana="Natur">Sterne</seg> ziehn,</l>
+            <l>nun geh’ ich zu der <seg ana="Glück">schönsten</seg> Frau,</l>
+            <l>weit über <seg ana="Natur">Wiesen</seg> im <seg ana="Natur">Dämmer</seg>grau,</l>
+            <l>tief in den <seg ana="Natur">Busch</seg> von <seg ana="Natur">Jasmin</seg></l>
+          </lg>
+          <lg>
+            <l>Durch <seg ana="Natur">Dämmer</seg>grau in der <seg ana="Glück">Liebe</seg> <seg ana="Natur">Land</seg>;</l>
+            <l>ich gehe nicht schnell, ich eile nicht;</l>
+            <l>mich zieht ein <seg ana="Glück">weiches</seg> samtenes Band</l>
+            <l>durch <seg ana="Natur">Dämmer</seg>grau in der <seg ana="Glück">Liebe</seg> <seg ana="Natur">Land</seg>,</l>
+            <l>in ein <seg ana="Glück">mildes</seg>, blaues <seg ana="Natur">Licht</seg></l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="britten">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>La Noël passée</title>
+          <author>traditionnel</author>
+          <editor>B. Britten</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=16909">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>La Noël passée,</l>
+            <l><seg ana="Pein">Povret</seg> orphelin.</l>
+            <l>Ma goule <seg ana="Pein">affamée</seg>,</l>
+            <l>N'avait plus de pain</l>
+            <l>M'en fus sous fenestre</l>
+            <l>Du bon Roy Henry,</l>
+            <l>Et lui dis : « Mon Maistre,</l>
+            <l>Oyez bien ceci. »</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
+          </lg>
+          <lg>
+            <l>En cette nuitée,</l>
+            <l>Au vieux temps jadis.</l>
+            <l>Naquit en Judée</l>
+            <l>Un de mes <seg ana="Glück">amis</seg></l>
+            <l>Avait pour couchette</l>
+            <l>Une crèche en bois,</l>
+            <l>Et dans la <seg ana="Pein">povrette</seg></l>
+            <l>Des ramas de pois.</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
+          </lg>
+          <lg>
+            <l>Et de sa chambrette,</l>
+            <l>Oyant mon récit,</l>
+            <l>Avecque <seg ana="Glück">amourette</seg></l>
+            <l>Le bon Roy <seg ana="Glück">sourit</seg></l>
+            <l>Prit en sa cassette</l>
+            <l>Deux écus dorés;</l>
+            <l>De sa main <seg ana="Glück">doucette</seg></l>
+            <l>Me les a donnés.</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
+          </lg>
+          <lg>
+            <l>Disant : « Petit ange,</l>
+            <l>Je suis <seg ana="Glück">moult content</seg>,</l>
+            <l>Afin que tu manges,</l>
+            <l>Voilà de l'argent</l>
+            <l>Pour la <seg ana="Glück">douce</seg> France</l>
+            <l>Et son Roy Henry,</l>
+            <l>Prie avecque instance</l>
+            <l>Ton petit <seg ana="Glück">amy</seg>! »</l>
+            <l rend="refrain">Prenez vos musettes</l>
+            <l rend="refrain">Et vos épinettes</l>
+            <l rend="refrain">Jésus, cette nuit,</l>
+            <l rend="refrain">S'est fait tout petit.</l>
+          </lg>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
+  <TEI id="fauré">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Noël</title>
+          <author>V. Wilder</author>
+          <editor>G. Fauré (op. 43 nº 1)</editor>
+        </titleStmt>
+        <publicationStmt><p/></publicationStmt>
+        <sourceDesc>
+          <p>
+            <ref target="https://www.lieder.net/lieder/get_text.html?TextId=17461">
+              The LiederNet Archive
+            </ref>
+          </p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="poem">
+          <lg>
+            <l>La <seg ana="Natur">nuit</seg> descend du haut des <seg ana="Natur">cieux</seg>,</l>
+            <l>Le <seg ana="Natur">givre</seg> au toit suspend ses franges.</l>
+            <l>Et, dans les <seg ana="Natur">airs</seg>, le vol des anges</l>
+            <l>Éveille un bruit mystérieux.</l>
+          </lg><lg>
+            <l>L’<seg ana="Natur">étoile</seg> qui guidait les mages,</l>
+            <l>S’arrête enfin dans les <seg ana="Natur">nuages</seg>,</l>
+            <l>Et fait briller un nimbe d’or</l>
+            <l>Sur la chaumiére où Jésus dort.</l>
+          </lg><lg>
+            <l>Alors, ouvrant ses yeux divins,</l>
+            <l>L’enfant couché, dans l’humble crèche,</l>
+            <l>De son berceau de paille fraîche,</l>
+            <l><seg ana="Glück">Sourit</seg> aux nobles pélérins.</l>
+          </lg><lg>
+            <l>Eux, s’inclinant, lui disent : Sire,</l>
+            <l>Reçois l’encens, l’or et la myrrhe,</l>
+            <l>Et laisse-nous, ô <seg ana="Glück">doux</seg> Jésus,</l>
+            <l><seg ana="Glück">Baiser</seg> le bout de tes pieds nus.</l>
+          </lg><lg>
+            <l>Comme eux, ô peuple, incline-toi,</l>
+            <l>Imite leur pieux exemple,</l>
+            <l>Car cette étable, c’est un temple,</l>
+            <l>Et cet enfant sera ton roi !</l>
+          </lg>
+        </div>
+      </body>
+      <back>
+        <div type="colophon">
+          <p>Édition de texte : introduction à l’édition numérique avec la TEI.</p>
+        </div>
+      </back>
+    </text>
+  </TEI>
+</teiCorpus>
