@@ -96,9 +96,9 @@ Cette structuration permet de préserver l’organisation métrique et formelle 
 Le cœur du travail éditorial repose sur une **annotation sémantique manuelle** réalisée à l’aide de l’élément `<seg>` et de l’attribut `ana`.
 
 Les principaux champs sémantiques retenus sont :
-- `Natur` : éléments naturels et paysages ;
-- `Glück` : amour, bonheur, joie, apaisement ;
-- `Pein` : souffrance, tristesse, douleur, manque.
+- `Natur` (nature) : éléments naturels et paysages ;
+- `Glück` (bonheur) : amour, bonheur, joie, apaisement ;
+- `Pein` (douleur) : souffrance, tristesse, douleur, manque.
 
 Cette annotation constitue la base des explorations ultérieures du corpus.
 
