@@ -226,3 +226,41 @@ respStmt resp {
 l[rend="refrain"] {
   margin-left: 4em;
 }
+
+html {
+    background-color: white;
+    color: black;
+    font-family: "Junicode", serif;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+h1:after {
+    content: "— Édition numérique —";
+    display: block;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: black;
+}
+
+h2 {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+ul {
+  margin-left: 10vw
+}
