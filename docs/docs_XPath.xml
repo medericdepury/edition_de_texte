@@ -1,4 +1,4 @@
-<?xml-stylesheet href="mystyle.css" type="text/css"?><?xml-model href="document.xsd"
+<?xml-stylesheet href="mystyle.css" type="text/css"?><?xml-model href="../documents_TEI/document.xsd"
   type="application/xml"
   schematypens="http://www.w3.org/2001/XMLSchema"?><teiCorpus>
   

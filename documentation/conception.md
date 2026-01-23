@@ -110,6 +110,8 @@ Dans la continuité du cours, le corpus annoté en TEI a été exploré à l’a
 
 Ces explorations ont permis notamment d’identifier les segments annotés par champ sémantique et d’observer la répartition des thématiques dans le corpus.
 
+La formule XPath permettant d’extraire une liste, par exemple des segments annotés avec Natur, est `for $nat in //seg[@ana='Natur']/text() return $nat`. Bien entendu, elle fonctionne également pour d’autres requêtes, par exemple pour obtenir la liste des auteurs des poèmes : `for $auteur in //author/text() return $auteur`.
+
 ---
 
 ## 11. Dimension méthodologique et évaluative
