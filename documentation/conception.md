@@ -1,4 +1,4 @@
-# Poèmes lyriques – Documentation du processus d’éditorialisation
+# Poèmes lyriques – documentation du processus d’éditorialisation
 
 ## 1. Cadre du cours et objectifs
 
@@ -37,7 +37,8 @@ Le projet est hébergé dans un dépôt GitHub personnel, mis en place dès le d
 
 Le dépôt comprend :
 - un dossier `documentation` (présent document, ODD) ;
-- un dossier `documents_TEI` (document XML, schéma XSD, CSS)  ;
+- un dossier `documents_TEI` (document XML TEI, schéma XSD, CSS)  ;
+- un dossier `docs` (document XML sans espace de noms TEI, index HTML, CSS) ;
 - la license.
 
 ---
@@ -66,13 +67,14 @@ Ce choix reflète la volonté de constituer un corpus cohérent tout en respecta
 
 ## 7. Métadonnées et en-tête TEI
 
-Les métadonnées sont encodées dans `<teiHeader>`, notamment dans `<fileDesc>`.
+Les métadonnées sont encodées dans `<teiHeader>`, notamment dans `<fileDesc>` et .
 
 On y trouve :
-- le titre du poème ;
-- l’auteur du texte poétique ;
-- le compositeur, indiqué dans `<editor>`, en tant qu’intermédiaire musical ;
-- la source du texte, avec un lien vers *The LiederNet Archive*.
+- le `<titleStmt>`, comprenant :
+    - le titre du poème (`<title>`) ;
+    - l’auteur du texte poétique (`<author>`) ; et
+    - le compositeur (`<editor>`, en tant qu’intermédiaire musical) ;
+- la source du texte (`<sourceDesc>`), avec un lien vers *The LiederNet Archive*.
 
 Ce choix correspond à une conception large de l’édition, intégrant à la fois les dimensions textuelle et musicale.
 
@@ -126,6 +128,6 @@ Il ne s’agit pas de produire une édition définitive ou parfaite, mais de dé
 
 ---
 
-## 12. Sources
+## 12. Source
 
 Les textes poétiques sont issus du site *The LiederNet Archive* : https://www.lieder.net/.
